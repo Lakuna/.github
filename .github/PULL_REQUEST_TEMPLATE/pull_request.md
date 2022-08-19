@@ -1,15 +1,17 @@
 # Pull Request
 
+## Description
+
 Describe the pull request as concisely as possible.
 
-  This pull request intends to X and Y by Z.
+## Relevant issues
 
 If there are any relevant open issues, list them here.
 
-- X
-- Y
-- Z
+- #0
+- #1
+- #2
+
+## Details
 
 If you have any other relevant information, write it here.
-
-  Contact X for details.
