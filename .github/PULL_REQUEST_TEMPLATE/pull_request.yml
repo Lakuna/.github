@@ -1,0 +1,26 @@
+name: "Pull request"
+description: "Report that something isn't working properly."
+labels: ["bug"]
+assignees: ["Lakuna"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Describe the pull request as concisely as possible."
+      placeholder: "This pull request fixes X and changes Y to Z."
+    validations:
+      required: true
+  - type: input
+    id: issues
+    attributes:
+      label: "Relevant issues"
+      description: "If there are any relevant open issues, list them here."
+      placeholder: "#0, #1."
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "If you have any other relevant information, write it here."
+      placeholder: "This pull request might be relevant to X and Y."
+  
