@@ -1,48 +1,51 @@
-name: "Bug report"
+name: Bug Report
 description: "Report that something isn't working properly."
-labels: ["bug"]
-assignees: ["Lakuna"]
+labels:
+  - bug
+assignees:
+  - Lakuna
 body:
   - type: textarea
     id: description
     attributes:
-      label: "Description"
-      description: "Describe the bug as concisely as possible, including the expected outcome."
-      placeholder: "When I tried to X, I expected Y. Instead, Z."
+      label: Description
+      description: Describe the bug as concisely as possible, including the expected outcome.
+      placeholder: Description of the bug.
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: "Version"
-      description: "On what version of the software did the bug occur?"
-      placeholder: "vX.Y.Z"
+      label: Version
+      description: On what version of the software did the bug occur?
+      placeholder: Software version.
     validations:
       required: true
   - type: textarea
     id: environment
     attributes:
-      label: "Environment details"
-      description: "Describe the environment in which the bug occurred. This can include details such as operating system or web browser (if applicable)."
-      placeholder: "My device is using W vX.Y.Z."
+      label: Environment Details
+      description: Describe the environment in which the bug occurred. This can include details such as operating system or web browser (if applicable).
+      placeholder: Environment details.
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
-      label: "Possible solution"
-      description: "If you have any ideas about why this bug might be occurring, write them here."
-      placeholder: "It's possible that X is causing Y to Z."
+      label: Possible Solution
+      description: If you have any ideas about why this bug might be occurring, write them here.
+      placeholder: Possible solution to the bug.
   - type: textarea
     id: reproduction
     attributes:
-      label: "Steps to reproduce"
-      description: "If you are able to reproduce the bug, write the steps to do so here."
-      placeholder: "1. Run the software."
+      label: Steps to Reproduce
+      description: If you are able to reproduce the bug, write the steps to do so here.
+      placeholder: |
+        1. First step to reproduce.
+        2. Second step to reproduce.
   - type: textarea
     id: details
     attributes:
-      label: "Details"
-      description: "If you have any other relevant information, write it here."
-      placeholder: "The bug didn't start to occur until X."
-  
+      label: Details
+      description: If you have any other relevant information, write it here.
+      placeholder: Additional information.
