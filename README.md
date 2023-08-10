@@ -1,2 +1,3 @@
 # .github
-Default GitHub folder contents for my repositories.
+
+Default `.github` folder contents for my repositories.
