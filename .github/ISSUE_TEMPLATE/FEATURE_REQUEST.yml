@@ -1,26 +1,27 @@
-name: "Feature request"
-description: "Request a new feature."
-labels: ["enhancement"]
-assignees: ["Lakuna"]
+name: Request a feature
+description: Request a new feature.
+labels:
+  - enhancement
+assignees:
+  - Lakuna
 body:
   - type: textarea
     id: description
     attributes:
-      label: "Description"
-      description: "Describe the feature as concisely as possible."
-      placeholder: "I wish that X."
+      label: Description
+      description: Describe the feature as concisely as possible.
+      placeholder: Description of the feature.
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
-      label: "Possible solution"
-      description: "If you have any ideas about how this feature might be implemented, write them here."
-      placeholder: "It might be possible to X by Y."
+      label: Possible Solution
+      description: If you have any ideas about how this feature might be implemented, write them here.
+      placeholder: Possible solution.
   - type: textarea
     id: details
     attributes:
-      label: "Details"
-      description: "If you have any other relevant information, write it here."
-      placeholder: "This feature might X."
-  
+      label: Details
+      description: If you have any other relevant information, write it here.
+      placeholder: Additional information.
