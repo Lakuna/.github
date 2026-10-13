@@ -2,10 +2,7 @@
 
 ## Supported Versions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| latest  | :white_check_mark: |
-| older   | :x:                |
+I generally only support the most recent versions of my personal projects.
 
 ## Reporting a Vulnerability
 
