@@ -2,7 +2,7 @@
 
 Thank you for taking the time to contribute to my project. Please navigate to the header for the type of contribution you plan on making for further details.
 
-## Testing and bug reports
+## Testing and Bug Reports
 
 Before filing a bug report, please look through existing open bug reports to ensure that you aren't filing a duplicate. If an identical or similar bug report already exists, it would be helpful if you would leave a comment on that report with as many of the following fields as applicable and possible:
 
@@ -16,7 +16,7 @@ Before filing a bug report, please look through existing open bug reports to ens
 
 If no similar bug report exists, please fill out the relevant bug report form that is included in the repository.
 
-## Submitting changes and pull requests
+## Submitting Changes and Pull Requests
 
 Please try to limit the scope of each pull request to one issue or a small related group of issues in order to make the code easier to review. Make sure to tag each issue that the pull request addresses in the commit messages so that they can be closed once the request has been merged.
 
